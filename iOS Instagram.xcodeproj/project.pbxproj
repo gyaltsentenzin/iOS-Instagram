@@ -59,6 +59,7 @@
 		D593B82427E9796700EE1B59 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D593B82627EA530D00EE1B59 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D593B82A27EAD13800EE1B59 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		D593B82C27ECD29C00EE1B59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 		D593B7E427E834EA00EE1B59 = {
 			isa = PBXGroup;
 			children = (
+				D593B82C27ECD29C00EE1B59 /* README.md */,
 				D593B7EF27E834EA00EE1B59 /* iOS Instagram */,
 				D593B80627E834EC00EE1B59 /* iOS InstagramTests */,
 				D593B81027E834EC00EE1B59 /* iOS InstagramUITests */,
