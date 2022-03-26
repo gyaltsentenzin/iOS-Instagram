@@ -20,6 +20,7 @@
 		D593B82527E9796700EE1B59 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593B82427E9796700EE1B59 /* FeedViewController.swift */; };
 		D593B82727EA530D00EE1B59 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593B82627EA530D00EE1B59 /* CameraViewController.swift */; };
 		D593B82B27EAD13800EE1B59 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = D593B82A27EAD13800EE1B59 /* Key.swift */; };
+		D5E58EB027EE4399003F13CC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E58EAF27EE4399003F13CC /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D593B82627EA530D00EE1B59 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		D593B82A27EAD13800EE1B59 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 		D593B82C27ECD29C00EE1B59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D5E58EAF27EE4399003F13CC /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				D593B82427E9796700EE1B59 /* FeedViewController.swift */,
 				D593B82627EA530D00EE1B59 /* CameraViewController.swift */,
 				D593B82A27EAD13800EE1B59 /* Key.swift */,
+				D5E58EAF27EE4399003F13CC /* PostCell.swift */,
 			);
 			path = "iOS Instagram";
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E58EB027EE4399003F13CC /* PostCell.swift in Sources */,
 				D593B7F127E834EA00EE1B59 /* AppDelegate.swift in Sources */,
 				D593B82727EA530D00EE1B59 /* CameraViewController.swift in Sources */,
 				D593B7F327E834EA00EE1B59 /* SceneDelegate.swift in Sources */,

@@ -23,7 +23,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBAction func onSubmitButton(_ sender: Any) {
         let post = PFObject(className: "Posts")
         
-        post["name"] = commentField.text
+        post["caption"] = commentField.text
         post["author"] = PFUser.current()
         
         let imageData = imageView.image?.pngData()
