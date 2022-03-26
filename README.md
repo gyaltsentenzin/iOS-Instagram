@@ -24,3 +24,6 @@ The following **bonus** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/gyaltsentenzin/iOS-Instagram/blob/main/Stagram.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough' />
+
+This gif below shows scrolling the last 20 posts.
+<img src='https://github.com/gyaltsentenzin/iOS-Instagram/blob/main/Stagram.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough' />
