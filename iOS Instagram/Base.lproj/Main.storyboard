@@ -110,25 +110,25 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Tenzin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eM-oP-4cg">
-                                                    <rect key="frame" x="28" y="334" width="50" height="20.333333333333314"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="20.000000000000004" y="334" width="53.333333333333343" height="20.333333333333314"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice weather!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNd-3j-Gy9">
-                                                    <rect key="frame" x="86" y="334" width="296" height="20.333333333333314"/>
+                                                    <rect key="frame" x="85" y="334" width="284.66666666666663" height="20.333333333333314"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="DNd-3j-Gy9" firstAttribute="leading" secondItem="1eM-oP-4cg" secondAttribute="trailing" constant="8" id="40d-L7-dMW"/>
-                                                <constraint firstAttribute="trailing" secondItem="DNd-3j-Gy9" secondAttribute="trailing" constant="8" id="5ER-3P-kSY"/>
+                                                <constraint firstItem="DNd-3j-Gy9" firstAttribute="leading" secondItem="1eM-oP-4cg" secondAttribute="trailing" constant="11.666666666666657" id="40d-L7-dMW"/>
+                                                <constraint firstAttribute="trailing" secondItem="DNd-3j-Gy9" secondAttribute="trailing" constant="20.333333333333371" id="5ER-3P-kSY"/>
                                                 <constraint firstItem="1eM-oP-4cg" firstAttribute="centerY" secondItem="DNd-3j-Gy9" secondAttribute="centerY" id="9M5-RQ-VBC"/>
                                                 <constraint firstItem="1eM-oP-4cg" firstAttribute="top" secondItem="cxM-47-ZLZ" secondAttribute="bottom" constant="8" id="Eg2-CT-czV"/>
                                                 <constraint firstItem="DNd-3j-Gy9" firstAttribute="baseline" secondItem="1eM-oP-4cg" secondAttribute="firstBaseline" id="NXK-nq-WHg"/>
-                                                <constraint firstItem="1eM-oP-4cg" firstAttribute="leading" secondItem="HLa-Pl-Zxa" secondAttribute="leadingMargin" constant="8" id="ZHH-Et-0ab"/>
+                                                <constraint firstItem="1eM-oP-4cg" firstAttribute="leading" secondItem="HLa-Pl-Zxa" secondAttribute="leadingMargin" id="ZHH-Et-0ab"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DNd-3j-Gy9" secondAttribute="bottom" constant="8" id="dh8-wj-YaM"/>
                                                 <constraint firstItem="cxM-47-ZLZ" firstAttribute="leading" secondItem="HLa-Pl-Zxa" secondAttribute="leading" constant="8" id="exv-6C-FLz"/>
                                                 <constraint firstItem="DNd-3j-Gy9" firstAttribute="top" secondItem="cxM-47-ZLZ" secondAttribute="bottom" constant="8" id="fDv-FS-EEb"/>
@@ -140,6 +140,41 @@
                                             <outlet property="captionLabel" destination="DNd-3j-Gy9" id="VQ6-dW-IT7"/>
                                             <outlet property="photoView" destination="cxM-47-ZLZ" id="E1q-0l-hrp"/>
                                             <outlet property="userNameLabel" destination="1eM-oP-4cg" id="poC-Yd-J27"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" id="TQT-8n-l6s" customClass="CommentCell" customModule="iOS_Instagram" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="407.66666603088379" width="390" height="36.333332061767578"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TQT-8n-l6s" id="Y6I-za-ZUa">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="36.333332061767578"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tenzin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZ0-We-8k5">
+                                                    <rect key="frame" x="20.000000000000004" y="7" width="53.333333333333343" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" This is a comment!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNb-DC-lJe">
+                                                    <rect key="frame" x="81.333333333333329" y="6.9999999999999982" width="147.66666666666669" height="20.333333333333329"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TNb-DC-lJe" secondAttribute="bottom" constant="8" id="01p-qv-UHe"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TNb-DC-lJe" secondAttribute="trailing" constant="8" id="11P-eq-9tD"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sZ0-We-8k5" secondAttribute="bottom" constant="8" id="7tt-f9-bML"/>
+                                                <constraint firstItem="TNb-DC-lJe" firstAttribute="top" secondItem="Y6I-za-ZUa" secondAttribute="top" constant="7" id="TVr-98-Lyo"/>
+                                                <constraint firstItem="TNb-DC-lJe" firstAttribute="leading" secondItem="sZ0-We-8k5" secondAttribute="trailing" constant="8" id="Zx0-qn-fdx"/>
+                                                <constraint firstItem="sZ0-We-8k5" firstAttribute="leading" secondItem="Y6I-za-ZUa" secondAttribute="leading" constant="20" id="spp-ef-ZjQ"/>
+                                                <constraint firstItem="sZ0-We-8k5" firstAttribute="top" secondItem="Y6I-za-ZUa" secondAttribute="top" constant="7" id="xmE-D9-QbJ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="TNb-DC-lJe" id="YEw-Ft-nTw"/>
+                                            <outlet property="nameLabel" destination="sZ0-We-8k5" id="5VD-ie-DIm"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
