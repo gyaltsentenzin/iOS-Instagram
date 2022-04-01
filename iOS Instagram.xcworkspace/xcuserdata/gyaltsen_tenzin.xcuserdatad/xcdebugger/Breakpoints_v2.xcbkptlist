@@ -3,22 +3,4 @@
    uuid = "FFA1F5A3-BA7C-4F15-94C1-246E7C609DED"
    type = "0"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B3127394-AD0E-4E46-9CEB-2B857F55B9B2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iOS Instagram/FeedViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>
