@@ -5,4 +5,5 @@
 
  	pod 'AlamofireImage'
 	pod 'Parse'
+	pod 'MessageInputBar'
  end
